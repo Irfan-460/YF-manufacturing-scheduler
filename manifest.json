@@ -1,0 +1,22 @@
+{
+  "project": "yottaflex-scheduling",
+  "seed": 20261022,
+  "horizon_start": "2026-01-05",
+  "horizon_end": "2026-04-04",
+  "profiles": {
+    "starter": {
+      "n_products": 5,
+      "n_machines": 3,
+      "n_orders": 10,
+      "n_materials": 5
+    },
+    "full": {
+      "n_products": 100,
+      "n_machines": 40,
+      "n_orders": 500,
+      "n_materials": 200
+    }
+  },
+  "external_sources": [],
+  "notes": "All data is synthetic. No external datasets used."
+}

@@ -1,0 +1,252 @@
+[
+  {
+    "anomaly_id":"ANOM-001",
+    "issue_type":"machine_overlap",
+    "schedule_id_a":"SCH-2026-001348",
+    "schedule_id_b":"SCH-2026-001389",
+    "machine_id":"MACH-015",
+    "expected_label":"VIOLATION",
+    "description":"SCH-2026-001389 overlaps SCH-2026-001348 on MACH-015",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-002",
+    "issue_type":"machine_overlap",
+    "schedule_id_a":"SCH-2026-001897",
+    "schedule_id_b":"SCH-2026-001917",
+    "machine_id":"MACH-033",
+    "expected_label":"VIOLATION",
+    "description":"SCH-2026-001917 overlaps SCH-2026-001897 on MACH-033",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-003",
+    "issue_type":"machine_overlap",
+    "schedule_id_a":"SCH-2026-001229",
+    "schedule_id_b":"SCH-2026-001256",
+    "machine_id":"MACH-040",
+    "expected_label":"VIOLATION",
+    "description":"SCH-2026-001256 overlaps SCH-2026-001229 on MACH-040",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-004",
+    "issue_type":"machine_overlap",
+    "schedule_id_a":"SCH-2026-001731",
+    "schedule_id_b":"SCH-2026-001757",
+    "machine_id":"MACH-037",
+    "expected_label":"VIOLATION",
+    "description":"SCH-2026-001757 overlaps SCH-2026-001731 on MACH-037",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-005",
+    "issue_type":"machine_overlap",
+    "schedule_id_a":"SCH-2026-000807",
+    "schedule_id_b":"SCH-2026-000822",
+    "machine_id":"MACH-029",
+    "expected_label":"VIOLATION",
+    "description":"SCH-2026-000822 overlaps SCH-2026-000807 on MACH-029",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-006",
+    "issue_type":"precedence_violation",
+    "schedule_id_a":"SCH-2026-000825",
+    "schedule_id_b":"SCH-2026-000826",
+    "machine_id":null,
+    "expected_label":"VIOLATION",
+    "description":"Step 2 (OP-ORD-2026-000008-02) starts before step 1 (OP-ORD-2026-000008-01) ends in order ORD-2026-000008",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-007",
+    "issue_type":"precedence_violation",
+    "schedule_id_a":"SCH-2026-001725",
+    "schedule_id_b":"SCH-2026-001726",
+    "machine_id":null,
+    "expected_label":"VIOLATION",
+    "description":"Step 2 (OP-ORD-2026-000032-02) starts before step 1 (OP-ORD-2026-000032-01) ends in order ORD-2026-000032",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-008",
+    "issue_type":"precedence_violation",
+    "schedule_id_a":"SCH-2026-000139",
+    "schedule_id_b":"SCH-2026-000140",
+    "machine_id":null,
+    "expected_label":"VIOLATION",
+    "description":"Step 2 (OP-ORD-2026-000144-02) starts before step 1 (OP-ORD-2026-000144-01) ends in order ORD-2026-000144",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-009",
+    "issue_type":"precedence_violation",
+    "schedule_id_a":"SCH-2026-000040",
+    "schedule_id_b":"SCH-2026-000041",
+    "machine_id":null,
+    "expected_label":"VIOLATION",
+    "description":"Step 2 (OP-ORD-2026-000265-02) starts before step 1 (OP-ORD-2026-000265-01) ends in order ORD-2026-000265",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-010",
+    "issue_type":"precedence_violation",
+    "schedule_id_a":"SCH-2026-001841",
+    "schedule_id_b":"SCH-2026-001842",
+    "machine_id":null,
+    "expected_label":"VIOLATION",
+    "description":"Step 2 (OP-ORD-2026-000365-02) starts before step 1 (OP-ORD-2026-000365-01) ends in order ORD-2026-000365",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-011",
+    "issue_type":"material_unavailable",
+    "schedule_id_a":"SCH-2026-000831",
+    "schedule_id_b":null,
+    "machine_id":"MACH-020",
+    "expected_label":"VIOLATION",
+    "description":"Op starts 2026-02-04 22:00:00 but material available 2026-02-05 00:00:00 (product PROD-2026-000026)",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-012",
+    "issue_type":"material_unavailable",
+    "schedule_id_a":"SCH-2026-000202",
+    "schedule_id_b":null,
+    "machine_id":"MACH-015",
+    "expected_label":"VIOLATION",
+    "description":"Op starts 2026-02-08 22:00:00 but material available 2026-02-09 00:00:00 (product PROD-2026-000060)",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-013",
+    "issue_type":"material_unavailable",
+    "schedule_id_a":"SCH-2026-000491",
+    "schedule_id_b":null,
+    "machine_id":"MACH-008",
+    "expected_label":"VIOLATION",
+    "description":"Op starts 2026-01-17 22:00:00 but material available 2026-01-18 00:00:00 (product PROD-2026-000087)",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-014",
+    "issue_type":"material_unavailable",
+    "schedule_id_a":"SCH-2026-001884",
+    "schedule_id_b":null,
+    "machine_id":"MACH-020",
+    "expected_label":"VIOLATION",
+    "description":"Op starts 2026-02-02 22:00:00 but material available 2026-02-03 00:00:00 (product PROD-2026-000015)",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-015",
+    "issue_type":"material_unavailable",
+    "schedule_id_a":"SCH-2026-001508",
+    "schedule_id_b":null,
+    "machine_id":"MACH-008",
+    "expected_label":"VIOLATION",
+    "description":"Op starts 2026-02-14 22:00:00 but material available 2026-02-15 00:00:00 (product PROD-2026-000003)",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-016",
+    "issue_type":"outside_shift",
+    "schedule_id_a":"SCH-2026-000972",
+    "schedule_id_b":null,
+    "machine_id":"MACH-010",
+    "expected_label":"VIOLATION",
+    "description":"Op moved to 03:00, outside any shift window on MACH-010",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-017",
+    "issue_type":"outside_shift",
+    "schedule_id_a":"SCH-2026-001624",
+    "schedule_id_b":null,
+    "machine_id":"MACH-020",
+    "expected_label":"VIOLATION",
+    "description":"Op moved to 03:00, outside any shift window on MACH-020",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-018",
+    "issue_type":"outside_shift",
+    "schedule_id_a":"SCH-2026-001030",
+    "schedule_id_b":null,
+    "machine_id":"MACH-035",
+    "expected_label":"VIOLATION",
+    "description":"Op moved to 03:00, outside any shift window on MACH-035",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-019",
+    "issue_type":"outside_shift",
+    "schedule_id_a":"SCH-2026-000727",
+    "schedule_id_b":null,
+    "machine_id":"MACH-035",
+    "expected_label":"VIOLATION",
+    "description":"Op moved to 03:00, outside any shift window on MACH-035",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-020",
+    "issue_type":"outside_shift",
+    "schedule_id_a":"SCH-2026-001413",
+    "schedule_id_b":null,
+    "machine_id":"MACH-023",
+    "expected_label":"VIOLATION",
+    "description":"Op moved to 03:00, outside any shift window on MACH-023",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-021",
+    "issue_type":"changeover_omitted",
+    "schedule_id_a":"SCH-2026-000047",
+    "schedule_id_b":"SCH-2026-000055",
+    "machine_id":"MACH-028",
+    "expected_label":"VIOLATION",
+    "description":"No changeover gap between SCH-2026-000047 and SCH-2026-000055 on MACH-028 (RUBBER->ELECTRONIC, required 34min)",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-022",
+    "issue_type":"changeover_omitted",
+    "schedule_id_a":"SCH-2026-000072",
+    "schedule_id_b":"SCH-2026-000114",
+    "machine_id":"MACH-005",
+    "expected_label":"VIOLATION",
+    "description":"No changeover gap between SCH-2026-000072 and SCH-2026-000114 on MACH-005 (PLASTIC->COMPOSITE, required 32min)",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-023",
+    "issue_type":"changeover_omitted",
+    "schedule_id_a":"SCH-2026-000034",
+    "schedule_id_b":"SCH-2026-000057",
+    "machine_id":"MACH-001",
+    "expected_label":"VIOLATION",
+    "description":"No changeover gap between SCH-2026-000034 and SCH-2026-000057 on MACH-001 (RUBBER->ELECTRONIC, required 34min)",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-024",
+    "issue_type":"changeover_omitted",
+    "schedule_id_a":"SCH-2026-000019",
+    "schedule_id_b":"SCH-2026-000023",
+    "machine_id":"MACH-018",
+    "expected_label":"VIOLATION",
+    "description":"No changeover gap between SCH-2026-000019 and SCH-2026-000023 on MACH-018 (METAL->RUBBER, required 88min)",
+    "cascade_of":null
+  },
+  {
+    "anomaly_id":"ANOM-025",
+    "issue_type":"changeover_omitted",
+    "schedule_id_a":"SCH-2026-000038",
+    "schedule_id_b":"SCH-2026-000104",
+    "machine_id":"MACH-029",
+    "expected_label":"VIOLATION",
+    "description":"No changeover gap between SCH-2026-000038 and SCH-2026-000104 on MACH-029 (COMPOSITE->RUBBER, required 68min)",
+    "cascade_of":null
+  }
+]
